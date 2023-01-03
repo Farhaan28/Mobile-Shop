@@ -1,0 +1,23 @@
+.container{
+    text-align: center;
+    align-content: center; 
+}
+img{
+   
+    width: 600px;
+    height: auto;
+}
+a{
+    text-decoration: none;
+    padding: 20px 25px;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    width: auto;
+    height: auto;
+}
+a:hover{
+    background-color: aqua;
+    color: black;
+    font-size: larger;
+}

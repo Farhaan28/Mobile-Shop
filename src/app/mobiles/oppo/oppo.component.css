@@ -1,0 +1,87 @@
+h1{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-variant: small-caps;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    background: white;
+    width: 270px;
+    height: 550px;
+    margin: 20px;
+    border-radius: 15px;
+}
+.card-image{
+    background-color: aqua;
+    height: 250px;
+    margin-bottom: 15px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px 15px 0 0 ;
+}
+.oppo-x5{
+    background-image: url(../../../assets/Oppo-Find-X5-Pro..png);
+}
+.oppo-8{
+    background-image: url(../../../assets/oppo8.png);
+}
+.oppo-k10{
+    background-image: url(../../../assets/oppo-k10.png);
+}
+.oppo-21{
+    background-image: url(../../../assets/oppo-21.png);
+}
+.oppo-a76{
+    background-image: url(../../../assets/oppo-a76.png);
+}
+.oppo-f17{
+    background-image: url(../../../assets/oppo-f17.png);
+}
+.oppo-a92020{
+    background-image: url(../../../assets/oppo-a92020.png);
+}
+.oppo-a33{
+    background-image: url(../../../assets/oppo-a33.png);
+}
+sup{
+    padding:4px
+}
+.card p{
+    padding: 10px;
+    height: 50%;
+}
+.card h2{
+    padding:10px;
+    font-size: x-large;
+    text-align: center;
+}
+.card a{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px 50px;
+    border-radius: 20px;
+}
+
+.card:hover{
+    background-color: var(--primary-color);
+    color: white;
+    transform: scale(1.03);
+}
+.card a:hover{
+    background-color: skyblue;
+    color: black;
+    font-size: larger;
+}
+
+
